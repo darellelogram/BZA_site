@@ -1,0 +1,64 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-item {
+  background: orange;
+  height: 150px;
+  /** Set line height as 150px, so the number is in the middle **/
+  line-height: 150px;
+  
+  /** font related **/ 
+  color: white;
+  font-size: 3em;
+  text-align: center;
+  
+  /** give 10 px margin above **/
+  margin-top: 10px;
+  
+  /* let item grow */
+  flex-grow: 1;
+  
+  /* min size for the element before flex takeover for the rest */
+  flex-basis: 50px;
+}
+
+.flex-grow-2 {
+  flex-grow: 2;
+  background: black;
+}
+
+.nav-wrapper {
+    background-color: #383E56;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+html *
+{
+   font-family: helvetica;
+}
+
+#p1 {
+    margin: 10px;
+    padding:10px;
+    border-left:1px solid black;
+    font-size: 14px;
+}
+
+#video {
+  text-align: center;
+}
+
+a.brand-logo{
+  padding-left: 20px;
+}
+
+#table.td{
+  font-size: 28px;
+}
+

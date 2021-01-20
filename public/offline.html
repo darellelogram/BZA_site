@@ -1,0 +1,101 @@
+<!--
+ Your First PWA Codelab (https://g.co/codelabs/pwa)
+
+ Copyright 2019 Google Inc.
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Business Analytics</title>
+  <meta name="codelab" content="our-ba-pwa-v1">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#2F3BA2"/>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <link rel="stylesheet" href="/styles/style.css" />
+<!--   <style>
+
+    /**
+    * Header
+    */
+
+    .main {
+      flex: 1;
+      overflow-x: hidden;
+      overflow-y: auto;
+      padding-top: 60px;
+    }
+
+    img.offline-lilo {
+      display: flex;
+      margin-bottom: 1.5em;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style> -->
+  
+</head>
+<body>
+    <header class="header">
+      <div class="navbar-fixed">
+        <nav>
+          <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo">BZA</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+              <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="skills.html">Skills</a></li>
+              <li><a href="coursework.html">Coursework</a></li>
+              <li><a href="jobs.html">Jobs</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <ul class="sidenav" id="mobile-demo">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="coursework.html">Coursework</a></li>
+        <li><a href="jobs.html">Jobs</a></li>
+      </ul>
+      <!-- insert some nice background here -->
+    </header>
+  <main class="main">
+    <div class="container center-align">
+      <p style="font-size:30px">
+        Oops, you appear to be offline, this app requires an internet
+      connection. Come back when you have connection! :) 
+      </p>
+      <p>
+        Click <a href="index.html">here</a> to refresh
+      </p>
+    <img class="responsive-img center-align" src="https://cdn.glitch.com/f13171d0-1de2-4e15-b031-6f08f07ed59a%2Fhawaiian.jpg?v=1595148801127" alt="">
+  </div>
+      </main>
+</body>
+</html>
